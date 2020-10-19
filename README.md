@@ -3,8 +3,9 @@
 ## Установка
 Наберите в консоли следущее:
 ```
-myvenv\Scripts\activate.bat
 git clone ulr проекта
+cd TestingApp
+myvenv\Scripts\activate.bat
 cd sitefortesting
 pip -r install requirements.txt
 python manage.py makemigrations quiz
